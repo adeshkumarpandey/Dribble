@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+#nav {
+    height: 50px;
+    box-shadow: 0 0.2px;
+    display: flex;
+    align-items: center;
+
+}
+
+#navelements-1 {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+#left {
+    height: 100%;
+    margin: 1px 0 0 0;
+    background-color: #ffffff;
+    box-shadow: 0.2px 0;
+    width: 20%;
+}
+
+.circle-1 {
+    margin-left: 25px;
+    height: 12px;
+    width: 12px;
+    background-color: red;
+}
+
+.circle-2 {
+    height: 12px;
+    width: 12px;
+    margin-left: 10px;
+    background-color: yellow;
+}
+
+.circle-3 {
+    height: 12px;
+    width: 12px;
+    margin-left: 10px;
+    background-color: green;
+}
+
+.circle {
+    border-radius: 50%;
+
+}
+
+#navelements-1 svg {
+    margin: 0 20px;
+}
+
+#navelements-1 i {
+    font-size: 20px;
+    margin: 0 12px;
+}
+
+
+#navelements-2 {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+#navelements-1 .shield {
+    margin-left: 300px;
+}
+
+#navelements-2 .reload {
+    margin: 5px;
+}
+
+#navelements-2 #searchbar {
+    height: 25px;
+    width: 450px;
+}
+
+input[type="url"]::placeholder {
+    text-align: center;
+}
+
+#navelements-2 .lock {
+    position: absolute;
+    left: 48.5%;
+    top: 2%;
+}
+
+#search {
+    border: 1px solid;
+}
+
+#search #searchbar {
+    border: none;
+}
