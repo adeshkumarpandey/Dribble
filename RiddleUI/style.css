@@ -95,13 +95,15 @@ input[type="url"]::placeholder {
     left: 48.5%;
     top: 2%;
 }
-
+/* 
 #search {
     border: 1px solid;
-}
+} */
 
 #search #searchbar {
-    border: none;
+    /* border: none; */
+    outline: none;
+    
 }
 
 #columns{
