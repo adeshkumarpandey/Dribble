@@ -114,6 +114,16 @@ body {
     background: linear-gradient(to right top, #FE9B00, #FFD46E);
 }
 
+.col .title {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
 .col:nth-child(1) img {
     height: 300px;
     position: absolute;
@@ -128,6 +138,13 @@ body {
     background: linear-gradient(to right top, #ff6d05, #ffc8c8);
 }
 
+.col:nth-child(2) .title {
+    position: absolute;
+    top: 64%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
 .col:nth-child(2) img {
     height: 350px;
     position: absolute;
@@ -140,7 +157,13 @@ body {
     height: 55%;
     width: 27%;
     background: linear-gradient(to right top, #23b0ed, #9ae1ff);
+}
 
+.col:nth-child(3) .title {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .col:nth-child(3) img {
@@ -158,6 +181,13 @@ body {
 
 }
 
+.col:nth-child(4) .title {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .col:nth-child(4) img {
     height: 300px;
     position: absolute;
@@ -171,6 +201,13 @@ body {
     width: 27%;
     background: linear-gradient(to right top, #1A74E6, #2AB7FF);
 
+}
+
+.col:nth-child(5) .title {
+    position: absolute;
+    top: 72%;
+    left: 30%;
+    transform: translate(-50%, -50%);
 }
 
 .col:nth-child(5) img {
@@ -187,6 +224,13 @@ body {
     background: linear-gradient(to right top, #89551B, #D18C5F);
 }
 
+.col:nth-child(6) .title {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
 .col:nth-child(6) img {
     height: 350px;
     position: absolute;
@@ -194,4 +238,3 @@ body {
     left: 60%;
     transform: translate(-50%, -50%);
 }
-
