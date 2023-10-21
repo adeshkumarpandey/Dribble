@@ -16,7 +16,6 @@ body {
     width: 100vw;
     background-color: #FFFFFF;
     /* border: 2px solid; */
-    overflow: hidden;
 }
 
 #navbar {
@@ -38,7 +37,7 @@ body {
 
 #navbar #logo img {
     height: 40px;
-    filter: grayscale(100%);
+    opacity: .4;
 }
 
 #navbar #search-bar {
@@ -85,7 +84,7 @@ body {
 #hero {
     /* border: 2px solid; */
     margin-left: 73px;
-    height: 70vh;
+    height: 73vh;
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
@@ -100,7 +99,7 @@ body {
 
 .col {
     /* border: 2px solid; */
-    margin: 10% 4% 0 0;
+    margin: 10% 0 0 4%;
     height: 70%;
     width: 1%;
     border-radius: 25px;
@@ -108,10 +107,17 @@ body {
     position: relative;
 }
 
+
 .col:nth-child(1) {
     height: 60%;
     width: 27%;
     background: linear-gradient(to right top, #FE9B00, #FFD46E);
+    box-shadow: 0 5px 80px 0 #ffd675aa;
+}
+
+.col:hover {
+    scale: 1.1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
 .col .title {
@@ -136,6 +142,7 @@ body {
     height: 50%;
     width: 27%;
     background: linear-gradient(to right top, #ff6d05, #ffc8c8);
+    box-shadow: 0 5px 80px 0 #ffc8c8b9;
 }
 
 .col:nth-child(2) .title {
@@ -157,6 +164,7 @@ body {
     height: 55%;
     width: 27%;
     background: linear-gradient(to right top, #23b0ed, #9ae1ff);
+    box-shadow: 0 5px 80px 0 #9ae1ffb8;
 }
 
 .col:nth-child(3) .title {
@@ -178,7 +186,7 @@ body {
     height: 60%;
     width: 27%;
     background: linear-gradient(to right top, #FF6237, #FF9FC2);
-
+    box-shadow: 0 5px 80px 0 #ff84b1c9;
 }
 
 .col:nth-child(4) .title {
@@ -200,7 +208,7 @@ body {
     height: 57%;
     width: 27%;
     background: linear-gradient(to right top, #1A74E6, #2AB7FF);
-
+    box-shadow: 0 5px 80px 0 #6bceffaa;
 }
 
 .col:nth-child(5) .title {
@@ -222,6 +230,7 @@ body {
     height: 37%;
     width: 27%;
     background: linear-gradient(to right top, #89551B, #D18C5F);
+    box-shadow: 0 5px 80px 0 #d18d5f99;
 }
 
 .col:nth-child(6) .title {
@@ -237,4 +246,41 @@ body {
     top: -60%;
     left: 60%;
     transform: translate(-50%, -50%);
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid; */
+}
+
+#footer #socials {
+    margin: 10px 15px 0 50px;
+}
+
+#footer #socials a {
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+    margin-left: 80px;
+    font-weight: 500;
+    opacity: .8;
+}
+
+#footer #controls {
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+#footer #controls a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+#dev {
+    margin-top: 10px;
 }
